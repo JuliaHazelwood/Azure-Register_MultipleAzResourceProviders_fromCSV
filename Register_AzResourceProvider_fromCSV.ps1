@@ -1,10 +1,10 @@
 #Clear-AzContext -Force
 
-#Connect-AzAccount -Tenant guid
+#Connect-AzAccount -Tenant 'guid'
 
-#Get-AzSubscription -TenantId guid
+#Get-AzSubscription -TenantId 'guid'
 
-#Set-AzContext -Tenant guid -Subscription guid
+#Set-AzContext -Tenant 'guid' -Subscription 'guid'
 
 $rps = Import-Csv -Path C:\Users\$env:USERNAME\Desktop\RegisterResourceProviders\ProviderNamespaces.csv
 
