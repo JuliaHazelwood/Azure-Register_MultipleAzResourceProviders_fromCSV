@@ -31,7 +31,7 @@ At times, it is necessary to run the `Clear-AzContext` command and then run `Con
 
 I typically check to make sure I am getting the correct subscriptions back using `Get-AzSubscription` and then run `Set-AzContext` and specify both the Tenant and Subscription I want to work with.
 
-For those new to using the Azure PowerShell modules, see these links:
+For those new to using the Azure PowerShell and needing to install modules, see these links:
 * Azure PowerShell install module (https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.2.1)
 * Install with MSI (https://docs.microsoft.com/en-us/powershell/azure/install-az-ps-msi?view=azps-6.2.1)
 
